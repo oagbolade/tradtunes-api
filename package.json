@@ -1,0 +1,47 @@
+{
+  "name": "tradtunes-api",
+  "version": "1.0.0",
+  "description": "Music App ",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^3.0.6",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.14.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.1",
+    "multer-storage-cloudinary": "^2.2.1",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "sequelize": "^5.8.1",
+    "sequelize-cli": "^5.4.0",
+    "uuid": "^3.3.2",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "engines": {
+    "node": "10.15 "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sprinble/tradtunes-api.git"
+  },
+  "author": "Segun-Owolabi.Tobe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sprinble/tradtunes-api/issues"
+  },
+  "homepage": "https://github.com/sprinble/tradtunes-api#readme"
+}
